@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Typing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="box">
+        <h1>Start Typing the Sentence Below</h1>
+
+        <p class="info">
+            Time: <span id="t">60</span>s |
+            WPM: <span id="w">0</span>
+        </p>
+
+        <div class="type" id="box"></div>
+
+        <input type="text" id="inp" class="hide">
+        <button onclick="loadSentence()">Restart</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

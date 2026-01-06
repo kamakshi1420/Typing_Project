@@ -1,0 +1,86 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #74ebd5, #9face6);
+    font-family: "Segoe UI", "Inter", "Poppins", Arial, sans-serif;
+}
+
+.box {
+    background: linear-gradient(180deg, #ffffff, #f3f6ff);
+    padding: 32px;
+    border-radius: 14px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    max-width: 700px;
+    width: 100%;
+}
+
+h1 {
+    font-family: "Poppins", "Segoe UI", sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-bottom: 12px;
+}
+
+.info {
+    font-family: "Inter", "Segoe UI", sans-serif;
+    font-size: 17px;
+    color: #444;
+    margin-bottom: 22px;
+}
+
+.type {
+    font-family: "JetBrains Mono", "Courier New", monospace;
+    font-size: 24px;
+    line-height: 1.7;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    text-align: left;
+    color: #b5b5b5;
+    user-select: none;
+    cursor: text;
+}
+
+span.correct {
+    color: #222;
+}
+
+span.incorrect {
+    color: #b00020;
+    background: linear-gradient(90deg, #ffd6d6, #ffecec);
+}
+
+span.active {
+    border-left: 2px solid #5a67ff;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+.hide {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+button {
+    font-family: "Poppins", "Segoe UI", sans-serif;
+    padding: 10px 22px;
+    font-size: 16px;
+    background: linear-gradient(90deg, #5a67ff, #7f8cff);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #4c5cff, #6f7cff);
+}
