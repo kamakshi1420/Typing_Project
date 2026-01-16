@@ -1,0 +1,61 @@
+body {
+  font-family: monospace;
+  background: #1e1e1e;            /* dark background */
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  color: #d4d4d4;
+}
+
+#app {
+  background: #252526;            /* dark card */
+  padding: 20px 30px;
+  border-radius: 8px;
+  width: 500px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
+#box span {
+  font-size: 22px;
+  color: #9cdcfe;                 /* calm blue text */
+}
+
+input {
+  width: 100%;
+  font-size: 18px;
+  padding: 8px;
+  margin: 15px 0;
+  background: #1e1e1e;
+  color: #ffffff;
+  border: 1px solid #3c3c3c;
+  border-radius: 4px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #4fc1ff;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  color: #c8c8c8;
+}
+
+button {
+  padding: 6px 14px;
+  font-size: 14px;
+  cursor: pointer;
+  background: #3a3d41;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  transition: background 0.2s ease;
+}
+
+button:hover {
+  background: #4fc1ff;           /* accent hover */
+  color: #000;
+}
